@@ -1,20 +1,26 @@
 [
   {
     "question": "Who discovered penicillin and what year was it discovered?",
-    "direct": "Jacques Chin",
-    "cot": "(IV).",
-    "react": "Thought: I should look up the author and year.\nThought: I can answer.\nFinal Answer: (no tool) I should look up the author and year.\n"
+    "direct": "1854",
+    "cot": "The first known use of penicillin was in the 18th century. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic",
+    "react": "Thought: I can answer.\nFinal Answer: Alfred Nobel.\n"
   },
   {
     "question": "What is (125^2 - 120^2) / 5?",
     "direct": "1252 - 1202 / 5",
-    "cot": "(d).",
-    "react": "Thought: I can calculate with the difference of squares. Action: Calc[(1252 - 1202) / 5] Observation: [(1252 - 1202) / 5]\nThought: I can answer.\nFinal Answer: (no tool) I can calculate with the difference of squares. Action: Calc[(1252 - 1202) / 5] Observation: [(1252 - 1202) / 5]\n"
+    "cot": "(1252 - 1202) / 5 = (1252 - 1202) / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 /",
+    "react": "Thought: I can answer.\nFinal Answer: 276.\n"
   },
   {
     "question": "In which city is the Eiffel Tower located?",
-    "direct": "san francisco",
-    "cot": "Paris",
-    "react": "Thought: Paris\nThought: I can answer.\nFinal Answer: (no tool) Paris\n"
+    "direct": "Paris",
+    "cot": "Paris.",
+    "react": "Thought: I can answer.\nFinal Answer: Paris.\n"
+  },
+  {
+    "question": "Which famous American alligator recently passed away?",
+    "direct": "jack jackson",
+    "cot": "The alligator was named after the famous alligator, the tiger.",
+    "react": "Thought: I can answer.\nFinal Answer: Alligator.\n"
   }
 ]
