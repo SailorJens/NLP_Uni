@@ -5,6 +5,6 @@
 /nlp_env
 __pycache__
 /data
-/artifacts
+
 /outputs-lora-sst2
 /outputs-lora-sst2-merged

@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2025-10-15T15:33:19.587081",
+  "config": {
+    "MODEL_NAME": "distilbert-base-uncased",
+    "LR": 0.0005,
+    "BATCH_SIZE": 32,
+    "NUM_EPOCHS": 5,
+    "LORA_RANK": 16,
+    "LORA_ALPHA": 32,
+    "LORA_DROPOUT": 0.05,
+    "TARGET_MODULES": [
+      "q_lin",
+      "k_lin",
+      "v_lin",
+      "out_lin"
+    ]
+  },
+  "train": {
+    "global_step": 10525,
+    "training_loss": 0.34632843633728755
+  },
+  "eval": {
+    "eval_loss": 0.36233240365982056,
+    "eval_accuracy": 0.8474770642201835,
+    "eval_runtime": 2.0532,
+    "eval_samples_per_second": 424.707,
+    "eval_steps_per_second": 13.637,
+    "epoch": 5.0
+  }
+}
