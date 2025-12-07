@@ -9,7 +9,7 @@
     "question": "What is (125^2 - 120^2) / 5?",
     "direct": "1252 - 1202 / 5",
     "cot": "(1252 - 1202) / 5 = (1252 - 1202) / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 /",
-    "react": "Thought: I can answer.\nFinal Answer: 276.\n"
+    "react": "Thought: I can calculate with the difference of squares. Action: Calc[(1252 - 1202) / 5] Observation: tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result\nObservation: 10.0\nThought: I can answer.\nFinal Answer: 10.0.\n"
   },
   {
     "question": "In which city is the Eiffel Tower located?",
@@ -22,5 +22,17 @@
     "direct": "jack jackson",
     "cot": "The alligator was named after the famous alligator, the tiger.",
     "react": "Thought: I can answer.\nFinal Answer: Alligator.\n"
+  },
+  {
+    "question": "Which German chancellor visited Israel yesterday?",
+    "direct": "Yitzhak Rabin",
+    "cot": "The relevant information to answer the above question is: Chancellor Angela Merkel visited Israel yesterday. The answer: Angela Merkel.",
+    "react": "Thought: I can answer. Final answer: Ernst von Ziegese.\nThought: I can answer.\nFinal Answer: (no tool) I can answer. Final answer: Ernst von Ziegese.\n"
+  },
+  {
+    "question": "What is (125+0.5)/(7*(23-2))?",
+    "direct": "0",
+    "cot": "(125 + 0.5) / (7 * 23 - 2) = 125 + 0.5. The final answer: 125.",
+    "react": "Thought: I can calculate with the difference of squares. Action: Calc[(125+0.5) / (7*(23-2))]\nObservation: 0.8537414965986394\nThought: I can answer.\nFinal Answer: 0.8537414965986394.\n"
   }
 ]
