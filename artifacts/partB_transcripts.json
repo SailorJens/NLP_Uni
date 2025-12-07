@@ -3,13 +3,13 @@
     "question": "Who discovered penicillin and what year was it discovered?",
     "direct": "1854",
     "cot": "The first known use of penicillin was in the 18th century. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic syringe. The first antibiotic was the antibiotic",
-    "react": "Thought: I can answer.\nFinal Answer: Alfred Nobel.\n"
+    "react": "Thought: I should use the search tool to look up the author and year. Action: Search[penicillin]\nObservation: [SEARCH RESULT: Penicillin] Penicillins (P, PCN or PEN) are a group of \u03b2-lactam antibiotics originally obtained from Penicillium moulds, principally P. chrysogenum and P. rubens. Most penicillins in clinical use are synthesised by P. chrysogenum using deep tank fermentation and then purified.\nThought: I should use the search tool to look up the author and year. Action: Search[penicillin]\nThought: I can answer.\nFinal Answer: (stopped after tool execution)\nThought: I should use the search tool to look up the author and year.\nThought: I can answer.\nFinal Answer: (no tool) I should use the search tool to look up the author and year.\n"
   },
   {
     "question": "What is (125^2 - 120^2) / 5?",
     "direct": "1252 - 1202 / 5",
     "cot": "(1252 - 1202) / 5 = (1252 - 1202) / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 / 5 = 1252 /",
-    "react": "Thought: I can calculate with the difference of squares. Action: Calc[(1252 - 1202) / 5] Observation: tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result> tool result\nObservation: 10.0\nThought: I can answer.\nFinal Answer: 10.0.\n"
+    "react": "Thought: I should use a tool to calculate the result. Action: Calc[(1252 - 1202) / 5]\nObservation: 10.0\nThought: I can answer.\nFinal Answer: 10.0\n"
   },
   {
     "question": "In which city is the Eiffel Tower located?",
@@ -18,21 +18,21 @@
     "react": "Thought: I can answer.\nFinal Answer: Paris.\n"
   },
   {
-    "question": "Which famous American alligator recently passed away?",
-    "direct": "jack jackson",
-    "cot": "The alligator was named after the famous alligator, the tiger.",
+    "question": "What is the name of the famous albino alligator that recently passed away?",
+    "direct": "agustin",
+    "cot": "The following is a list of alligators that have recently passed away.",
     "react": "Thought: I can answer.\nFinal Answer: Alligator.\n"
   },
   {
     "question": "Which German chancellor visited Israel yesterday?",
     "direct": "Yitzhak Rabin",
     "cot": "The relevant information to answer the above question is: Chancellor Angela Merkel visited Israel yesterday. The answer: Angela Merkel.",
-    "react": "Thought: I can answer. Final answer: Ernst von Ziegese.\nThought: I can answer.\nFinal Answer: (no tool) I can answer. Final answer: Ernst von Ziegese.\n"
+    "react": "Thought: I can answer.\nFinal Answer: Ernst von Ziegese.\n"
   },
   {
     "question": "What is (125+0.5)/(7*(23-2))?",
     "direct": "0",
     "cot": "(125 + 0.5) / (7 * 23 - 2) = 125 + 0.5. The final answer: 125.",
-    "react": "Thought: I can calculate with the difference of squares. Action: Calc[(125+0.5) / (7*(23-2))]\nObservation: 0.8537414965986394\nThought: I can answer.\nFinal Answer: 0.8537414965986394.\n"
+    "react": "Thought: I should use a tool to calculate the result. Action: Calc[(125+0.5) / (7*(23-2))]\nObservation: 0.8537414965986394\nThought: I can answer.\nFinal Answer: 0.8537414965986394\n"
   }
 ]
